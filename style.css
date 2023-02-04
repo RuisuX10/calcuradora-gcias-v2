@@ -1,3 +1,8 @@
 .ppal {
     max-width: 1000px !important;
 }
+
+body.darkmode{
+    background-color: rgb(32,32,44);
+    color: white;
+}

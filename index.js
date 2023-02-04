@@ -45,7 +45,7 @@ function retencion(NoSujeto, alicuota){  /* funcion del calculo de la retencion 
 }
 }
 
-function botRet() { /* funcion que ejecuta el boton, obteniendo los valores del formulario y luego ejecutando la funcion retencion */
+function botRet() { /* funcion que ejecuta el boton "Calcular Retencion", obteniendo los valores del formulario y luego ejecutando la funcion retencion */
     concepto = document.getElementById("concepto").value;
     retAnt = document.getElementById("retAnt").value;
     neto = parseFloat(document.getElementById("neto").value);
